@@ -1,0 +1,222 @@
+body {
+    background-image: url(https://w.wallhaven.cc/full/o5/wallhaven-o5rjq9.png);
+    margin: 0;
+    padding: 20px;
+    background-size: 100%;
+
+}
+::-webkit-scrollbar{
+    background-color: #1d1d1d;
+    width: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 15px;
+}
+
+#thierry{
+    color: white;
+}
+
+#app {
+    border-radius: 5px;
+    height: 200px;
+    max-width: 1430px;
+    margin: 0 auto;
+    background-color: #999999b0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+    border-left: 15px white solid;
+}
+
+#app:hover{
+    border: 2px solid white;
+    transition: 0.2s;
+}
+
+#main {
+    border-radius: 2px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1400px;
+    height: 200px;
+    border-radius: 2px;
+    gap: 0vh;
+}
+#tit{
+    margin: 0 0 auto;
+}
+
+#tit h1{
+    font-size: 50px;
+}
+
+#eu{
+    text-align: center;
+    color: black;
+}
+
+li{
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 90px;
+}
+
+h2{  
+    font-family:"League Gothic", sans-serif;
+    font-weight: 10;
+    font-size: 40px;
+    color: white;
+}
+h4{  
+    font-family:"League Gothic", sans-serif;
+    font-weight: 10;
+    font-size: 40px;
+    color: white;
+}
+
+h1{
+    font-family:"League Gothic", sans-serif;
+    font-weight: 10;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-size: 40px;
+    
+    
+}
+a{
+    color: white;
+    opacity: 1;
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+#email{
+    color: black;
+    font-family:"League Gothic", sans-serif;
+    font-weight: 2;
+    font-size: 20px;
+    text-align: center;
+}
+
+#creditos{
+    color: black;
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #585c93;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+label{
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+}
+
+input{
+    cursor: pointer;
+}
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    outline: none;
+    cursor: pointer;
+  }
+
+  /* Cor ao passar o mouse */
+  input[type="radio"]:hover {
+    border-color: #555;
+  }
+
+  /* Estilo para o botão marcado */
+  input[type="radio"]:checked {
+    transition: 0.2s;
+    background-color: #585c93; /* Cor ao marcar */
+    border-color: #585c93;
+  }
+
+  /* Adiciona o círculo dentro do botão ao marcar */
+  input[type="radio"]:checked::before {
+    transition: 0.2s;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 2px;
+  }
+
+  #thierry{
+    text-align: right;
+    font-size: 30px;
+  }
+
+.temperament-img {
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin: 0 0 10px 10px; /* Espaçamento entre a imagem e o texto */
+}
+

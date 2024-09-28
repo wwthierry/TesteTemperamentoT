@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Temperamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <img src="logo.png" alt="logo">
+        <div id="tit">
+            <h1>TESTE DE TEMPERAMENTO</h1>
+        <p id="creditos">CRIADO POR RUTH GOMES E LUÍS GOMES</p>
+        <h2 id="email">@TEMPERAMENTANDO.OFICIAL</h2>
+        </div>   
+    </div>
+    <div id="main">
+        <div id="instructions" class="hidden">
+            <h2>INSTRUÇÕES</h2>
+            <ul>
+                <li>Este teste consiste em duas partes: a primeira para determinar se o Temperamento é quente ou frio; a segunda para determinar úmido ou seco. A combinação dessas características resulta em seu temperamento.</li> <br>
+                <li>Não existe temperamento melhor ou pior, portanto, evite manipular suas respostas para obter um resultado específico.</li> <br>
+                <li>Lembre-se de que o temperamento não requer esforço, é o que é natural para você, aquilo que está no fundo, longe de todos os filtros que usamos para viver em sociedade.</li> <br>
+                <li>Você deve marcar entre "A e B"</li>
+            </ul>
+            <button id="start-part1">Iniciar Primeira Parte</button>
+        </div>
+
+        <div id="part1" class="hidden">
+            <h2>Primeira Parte - 19 Questões</h2>
+            <div id="questions-part1">
+                <!-- Repita para todas as 19 questões -->
+                <div id="app">
+                    <h2>Questão 1:</h2>
+                    <p> <label><input type="radio" name="q1" value="A"> A</label> -  Quando você está em um ambiente novo, você tende a explorá-lo completamente</p>
+                    <p> <label><input type="radio" name="q1" value="B"> B</label> - Tende a ser receoso em novos ambientes</p>
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 2:</h2>
+                    <p><label><input type="radio" name="q2" value="A"> A</label> - Quando alguém lhe ofende de forma inesperada, você já tem uma resposta</p>
+                    <p><label><input type="radio" name="q2" value="B"> B</label> - Não reage rapidamente às ofensas inesperadas.</p>
+
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 3:</h2>
+                    <p><label><input type="radio" name="q3" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q3" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+  
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 4:</h2>
+                    <p><label><input type="radio" name="q4" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q4" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 5:</h2>
+                    <p><label><input type="radio" name="q5" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q5" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 6:</h2>
+                    <p><label><input type="radio" name="q6" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q6" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 7:</h2>
+                    <p><label><input type="radio" name="q7" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q7" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 8:</h2>
+                    <p><label><input type="radio" name="q8" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q8" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 9:</h2>
+                    <p><label><input type="radio" name="q9" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q9" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 10:</h2>
+                    <p><label><input type="radio" name="q10" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q10" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 11:</h2>
+                    <p><label><input type="radio" name="q11" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q11" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 12:</h2>
+                    <p><label><input type="radio" name="q12" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q12" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 13:</h2>
+                    <p><label><input type="radio" name="q13" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q13" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 14:</h2>
+                    <p><label><input type="radio" name="q14" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q14" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 15:</h2>
+                    <p><label><input type="radio" name="q15" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q15" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 16:</h2>
+                    <p><label><input type="radio" name="q16" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q16" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 17:</h2>
+                    <p><label><input type="radio" name="q17" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q17" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 18:</h2>
+                    <p><label><input type="radio" name="q18" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q18" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 19:</h2>
+                    <p><label><input type="radio" name="q19" value="A"> A</label> - Para você, é muito fácil emitir sua opinião em meio a um grupo de “semi-conhecidos”.</p>
+                    <p><label><input type="radio" name="q19" value="B"> B</label> - Não consegue elaborar uma opinião sem se sentir muito seguro antes.</p>
+                    
+                </div>
+                <!-- ...continue para as 19 questões... -->
+            </div>
+            <button id="submit-part1" > <a href="#part2">Enviar Respostas</a></button>
+        </div>
+
+        <div id="part2" class="hidden">
+            <h2>Segunda Parte - 13 Questões</h2>
+            <div id="questions-part2">
+                <!-- Repita para todas as 13 questões -->
+                <div id="app">
+                    <h2>Questão 1:</h2>
+                    <p><label><input type="radio" name="q20" value="A"> A</label> - Você tem uma visão muito flexível sobre a vida.</p>
+                    <p><label><input type="radio" name="q20" value="B"> B</label> - Para você, a vida tem certos e errados muito marcados.</p>
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 2:</h2>
+                    <p><label><input type="radio" name="q21" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q21" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 3:</h2>
+                    <p><label><input type="radio" name="q22" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q22" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 4:</h2>
+                    <p><label><input type="radio" name="q23" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q23" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 5:</h2>
+                    <p><label><input type="radio" name="q24" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q24" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 6:</h2>
+                    <p><label><input type="radio" name="q25" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q25" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 7:</h2>
+                    <p><label><input type="radio" name="q26" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q26" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 8:</h2>
+                    <p><label><input type="radio" name="q27" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q27" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 9:</h2>
+                    <p><label><input type="radio" name="q28" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q28" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 10:</h2>
+                    <p><label><input type="radio" name="q29" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q29" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                   
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 11:</h2>
+                    <p><label><input type="radio" name="q30" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q30" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 12:</h2>
+                    <p><label><input type="radio" name="q31" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p><label><input type="radio" name="q31" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                    
+                </div>
+                <br>
+                <div id="app">
+                    <h2>Questão 13:</h2>
+                    <p><label><input type="radio" name="q32" value="A"> A</label> - Você se adapta com muita facilidade a novas coisas, pessoas e situações.</p>
+                    <p> <label><input type="radio" name="q32" value="B"> B</label> - Você possui certa dificuldade com novidades e mudanças.</p>
+                    
+                   
+                </div>
+                <!-- ...continue para as 13 questões... -->
+            </div>
+            <button id="submit-part2">Enviar Respostas</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <h2>Resultado Final</h2>
+            <div class="temperament-img"></div>
+            <div id="temperament-details"></div>
+            <button id="finish-test"><a href="#instructions">Finalizar</a></button>
+        </div>
+    </div>
+    <h2 id="thierry" >Feito por Thierry</h2>
+    <script src="script.js"></script>
+</body>
+</html>
